@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	tools:context=".MainActivity">
+
+	<Button
+		android:id="@+id/all_movie"
+		android:layout_width="300dp"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="50dp"
+		android:text="모든 영화 리스트"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintHorizontal_bias="0.504"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toTopOf="parent" />
+
+	<Button
+		android:id="@+id/favorite_movie"
+		android:layout_width="300dp"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="30dp"
+		android:text="좋아하는 영화"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintHorizontal_bias="0.504"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toBottomOf="@+id/current_movie" />
+
+	<Button
+		android:id="@+id/wish_movie"
+		android:layout_width="300dp"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="30dp"
+		android:text="앞으로 볼 영화"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintHorizontal_bias="0.504"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toBottomOf="@+id/favorite_movie" />
+
+	<Button
+		android:id="@+id/recommend_movie"
+		android:layout_width="300dp"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="30dp"
+		android:text="추천하는 영화"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintHorizontal_bias="0.495"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toBottomOf="@+id/wish_movie" />
+
+	<Button
+		android:id="@+id/current_movie"
+		android:layout_width="300dp"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="30dp"
+		android:text="현재 보고 있는 영화"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintHorizontal_bias="0.504"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toBottomOf="@+id/all_movie" />
+
+	<Button
+		android:id="@+id/btn_sidg"
+		android:layout_width="300dp"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="48dp"
+		android:text="About SIDG"
+		android:textAllCaps="false"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintHorizontal_bias="0.504"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toBottomOf="@+id/recommend_movie" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

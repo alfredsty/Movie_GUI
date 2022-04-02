@@ -1,0 +1,21 @@
+액티비티 이름
+all_movie       AllMovieActivity     모든 영화 리스트 movieRecView
+current_movie   CurrentMovieActivity     현재 보고 있는 영화  movieRecViewCurrent
+favorite_movie   FavoriteMovieActivity    좋아하는 영화  movieRecViewFavorite
+wish_movie       WishMovieActivity        앞으로 볼 영화  movieRecViewWish
+recommend_movie   RecommendMovieActivity     추천하는 영화  movieRecViewRecommend
+
+GUI 아이디
+# 영화 리스트 movie_list_item.xml
+movieImg
+movieTitle
+movieScore
+
+# 영화 아이템 activity_movie.xml
+movieItemImg
+btnMovieItemCurrent
+btnMovieItemFavorite
+btnMovieItemWish
+btnMovieItemRecommend
+txtMovieItemTitle
+txtMovieItemScore

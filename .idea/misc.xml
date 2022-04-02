@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/WJPark/Dropbox/WJPark/__Windows/AndroidStudio/MyMovie2/app/src/main/res/layout/activity_all_movie.xml" value="0.3394871794871795" />
+        <entry key="..\:/Users/WJPark/Dropbox/WJPark/__Windows/AndroidStudio/MyMovie2/app/src/main/res/layout/activity_current_movie.xml" value="0.25833333333333336" />
+        <entry key="..\:/Users/WJPark/Dropbox/WJPark/__Windows/AndroidStudio/MyMovie2/app/src/main/res/layout/activity_favorite_movie.xml" value="0.25833333333333336" />
+        <entry key="..\:/Users/WJPark/Dropbox/WJPark/__Windows/AndroidStudio/MyMovie2/app/src/main/res/layout/activity_main.xml" value="0.25833333333333336" />
+        <entry key="..\:/Users/WJPark/Dropbox/WJPark/__Windows/AndroidStudio/MyMovie2/app/src/main/res/layout/activity_movie.xml" value="0.25833333333333336" />
+        <entry key="..\:/Users/WJPark/Dropbox/WJPark/__Windows/AndroidStudio/MyMovie2/app/src/main/res/layout/activity_recommend_movie.xml" value="0.25833333333333336" />
+        <entry key="..\:/Users/WJPark/Dropbox/WJPark/__Windows/AndroidStudio/MyMovie2/app/src/main/res/layout/activity_wish_movie.xml" value="0.25833333333333336" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
